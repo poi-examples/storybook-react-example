@@ -10,7 +10,7 @@ const Welcome = () => (
     This storybook is built with <a href="https://github.com/egoist/poi">Poi</a> + <a href="https://github.com/egoist/poi/tree/master/packages/poi-preset-storybook">poi-preset-storybook</a>
     </p>
     <p>
-    Check out the source code <a href="https://github.com/poi-examples/storybook-vue-example">here</a>.
+    Check out the source code <a href="https://github.com/poi-examples/storybook-react-example">here</a>.
     </p>
   </div>
 )
