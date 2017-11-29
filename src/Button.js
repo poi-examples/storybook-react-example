@@ -1,1 +1,1 @@
-export default props => <button>{props.children}</button>
+export default props => <button onClick={props.onClick}>{props.children}</button>
