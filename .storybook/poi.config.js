@@ -5,11 +5,9 @@ module.exports = {
     '.storybook/addons.js'
   ],
 
-  dist: '.storybook/dist',
+  outDir: '.storybook/dist',
 
-  presets: [
-    // The order matters!
-    require('poi-preset-react')(),
-    require('poi-preset-storybook')()
+  plugins: [
+    require('@poi/plugin-storybook')()
   ]
 }

@@ -7,11 +7,10 @@
     "storybook:build": "poi build --config .storybook/poi.config.js --storybook"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.2.13",
-    "poi": "^9.4.3",
-    "poi-preset-react": "^9.2.0",
-    "poi-preset-storybook": "^0.1.0",
-    "storybook-react": "^3.2.16"
+    "@poi/plugin-storybook": "^11.0.1",
+    "@storybook/addon-actions": "^3.4.6",
+    "@storybook/react": "^3.4.6",
+    "poi": "^10.2.3"
   },
   "dependencies": {
     "react": "^16.2.0",
